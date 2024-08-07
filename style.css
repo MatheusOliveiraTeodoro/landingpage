@@ -8,6 +8,7 @@
     font-family: "Mochiy Pop One", sans-serif;
     list-style: none;
     text-decoration: none;
+    
 }
 
 :root{
@@ -203,39 +204,134 @@ h1{
     .home-img{
         width: 125%;
     }
+
+    .foodimg{
+        flex: 1;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .foodimg img{
+        width: 70vw;
+    }
+
+    .question{
+        flex: 1;
+        margin-top: 30px;
+    }
+
+    .question h2{
+        font-size: 25px;
+    }
+
+    .q-ans div:nth-child(2) p{
+        font-size: 11px;
+    }
 }
 
 .beneficios-slide{
     background: #fdf2e1;
     margin: 80px 0;
     font-size: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
     
-.beneficios-slide .text-h2{
+.beneficios-titulo{
     color: #882b2e;
     font-size: 55px;
+    margin-bottom: 15px;
+    margin-right: 20px;
 }
 
 .beneficios-slide
     
 .bnf-img {
-    width: 100%;
-    
+    width: 25vw;
+    padding-left: 2.5rem;
+    flex: 0.5;
+    max-width: 500px;
+    flex-direction: column;
+    margin-left: 40px;
 }
 
 .fale-conosco{
     padding: 15px 45px;
-    background: var(--red);
+    background: green;
     color: var(--white);
     border-radius: 10px;
     font-weight: 700;
     transition: all 0.5s;
     align-items: center;
+    margin-left: 20px;
     }
 
 .fale-conosco:hover{
     background: var(--white);
-    box-shadow: 0 2px 15px var(--red);
-    border: 1px solid var(--red);
-    color: var(--red);
+    box-shadow: 0 2px 15px green;
+    border: 1px solid green;
+    color: green;
 }
+
+.main-slide2{
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foodimg{
+    flex: 0.5;
+}
+
+.foodimg img{
+    max-width: 500px;
+    width: 45vw;
+}
+
+.question{
+    flex: 0.5;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.question h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.q-ans{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.q-ans img{
+    width: 45px;
+}
+
+.q-ans div:first-child{
+    padding: 10px;
+    border-radius: 50%;
+    height: 65px;
+    text-align: center;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.q-ans div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.q-ans div:nth-child(2) p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+

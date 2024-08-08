@@ -6,3 +6,4 @@ por algum caralho de motivo, a logo nao esta funcionando como icon da pag, nao s
 
 outra coisa, eu nao sei faer apertar um bota e ele me direcionar pra um lugar abrindo outra pag, entao to usando o <a href> se tiver um jeito melhor q vc saiba seria pica pra n fica abrindo wpp por ex e vc perder a pag q estava
 
+alias eu n vou fazer isso hj, mas pretendo tira esse monte de botao de fale conosco q ela pediu pra pos, e fazer um botao de wpp fixado q acompanha a tela entao, nem precisa mexer no botao da div midia

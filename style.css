@@ -8,7 +8,6 @@
     font-family: "Mochiy Pop One", sans-serif;
     list-style: none;
     text-decoration: none;
-    
 }
 
 :root{
@@ -148,7 +147,7 @@ h1{
     .menu{
         display: block;
     }
-    
+
     .menu.ativo .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
@@ -156,7 +155,7 @@ h1{
     .menu.ativo .bar:nth-child(2){
         opacity: 0;
     }
-    
+
     .menu.menu.ativo .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
@@ -188,7 +187,7 @@ h1{
         overflow: hidden;
         gap: 5rem;
     }
-     
+
     .home .text-h4{
         font-size: 15px;
     }
@@ -231,6 +230,9 @@ h1{
 
     .main-slide4{
         margin-top: 150px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 
     .main-slide4 .chef-feed {
@@ -246,14 +248,6 @@ h1{
     .main-slide4 .chef img{
         width: 80vw;
     }
-
-    .footer .footer-1 div{
-        margin: 0;
-    }
-
-    .footer div{
-        margin-bottom: 40px
-    }
 }
 
 .beneficios-slide{
@@ -265,26 +259,25 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
-    
+
 .beneficios-titulo{
     color: #882b2e;
     font-size: 55px;
     margin-bottom: 15px;
     margin-right: 20px;
+    text-align: center;
 }
 
 .beneficios-slide
-    
+
 .bnf-img {
-    
+
     width: 25vw;
     padding-left: 2.5rem;
     flex: 1;
     max-width: 500px;
     margin-left: 20px;
 }
-
-
 
 .fale-conosco{
     padding: 5px 35px;
@@ -364,6 +357,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+
 .video-1{
     width: 433px;
     height: 278px;
@@ -378,10 +372,15 @@ h1{
     border: 0px none rgb(0, 0, 0);
 }
 
+.logo-bfp{
+    width: 30%;
+}
+
 .main_slide4{
     margin-top: 27px;
-    display: flex;
-    flex-wrap: wrap-reverse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
 }
 
 .main_slide4 .chef-feed{
@@ -390,14 +389,9 @@ h1{
 }
 
 .main_slide4 .chef{
-    flex: 0.5;
-    text-align: right;
-}
-
-.main_slide4 .chef img{
-    margin-top: -130px;
-    width: 50vw;
-    max-width: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main_slide4 .chef-feed h2{
@@ -430,7 +424,7 @@ h1{
 }
 
 .main_slide4 .chef-detail p{
-    font-size: 11px; 
+    font-size: 11px;
     color: red;
 }
 
@@ -453,7 +447,7 @@ h1{
     overflow: hidden;
 }
 
-.main-slide4 .chef-vic div i, 
+.main-slide4 .chef-vic div i,
 .main_slide4 .chef-vic div h4{
     font-size: 27px;
     margin-right: 8px;
@@ -474,18 +468,6 @@ h1{
     .main-slide4 .chef-vic div p{
         display: none;
     }
-
-    .footer div:last-child{
-        margin-bottom: 0;
-    }
-
-    .footer{
-        padding-bottom: 25px;
-    }
-
-    .footer-2 h2{
-        font-size: 20px;
-    }
 }
 
 /*
@@ -501,7 +483,7 @@ h1{
 }
 
 .scene{
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: rotateX(65deg) rotatez(45deg);
 }
@@ -544,7 +526,7 @@ h1{
 
 .cube > div::after {
     width: var(--z); height: var(--y);
-    background-color: color-mix(in display-p3, var(--color) 80%, 
+    background-color: color-mix(in display-p3, var(--color) 80%,
     #333333);
     transform-origin: left center;
     rotate: y 90deg;
@@ -666,16 +648,6 @@ h1{
     margin-bottom: 20px;
 }
 
-.compre_aqui{
-    padding: 15px 45px;
-    background: blue;
-    color: var(--white);
-    border-radius: 15px;
-    font-weight: 100;
-    transition: all 0.5s;
-    align-items: center;
-}
-
 .footer img{
     width: 20%;
 }
@@ -689,15 +661,13 @@ h1{
 }
 
 .footer{
-    padding: 20px 10%;
     border-top: 1px solid rgb(252, 184, 107);
     background-color: rgb(252, 222, 195);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .footer-1 .logo img{
@@ -725,3 +695,52 @@ h1{
     margin-bottom: 5px;
 }
 
+#whatsapp .wtsapp{
+    position: fixed;
+    transform: all 0.5s ease;
+    background-color: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 50px;
+    border-right: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    bottom: 70px;
+    left: 20px;
+    border: 0;
+    z-index: 9999;
+    width: 46px;
+    height: 42px;
+    line-height: 50px;
+}
+
+/* animacao do botao do wpp */
+
+#whatsapp .wtsapp:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    -webkit-animation:pulse-border 1500ms ease-out infinite;
+    animation:pulse-border 1500ms ease-out infinite;
+}
+
+#whatsapp .wtsapp:focus{
+    border: none;
+    outline: none;
+}
+
+@keyframes pulse-border {
+
+    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
+    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 1;}
+}

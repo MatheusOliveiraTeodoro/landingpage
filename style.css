@@ -251,12 +251,11 @@ h1{
 }
 
 .beneficios-slide{
+    display: grid;
+    grid-column: 1rf 1rf;
     background: #fdf2e1;
     margin: 80px 0;
     font-size: 2.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -271,8 +270,7 @@ h1{
 .beneficios-slide
 
 .bnf-img {
-
-    width: 25vw;
+    width: 50vw;
     padding-left: 2.5rem;
     flex: 1;
     max-width: 500px;
@@ -429,12 +427,12 @@ h1{
 }
 
 .main_slide4 .chef-vic{
-    display: flex;
-    align-items: center;
-    padding: 25px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 40px;
     background-color: rgb(255, 219, 185);
     border-radius: 0 100px 0 0;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 100%;
 }
 
@@ -442,9 +440,7 @@ h1{
     display: flex;
     align-items: center;
     margin-right: 20px;
-    flex: 0.5;
     height: 27px;
-    overflow: hidden;
 }
 
 .main-slide4 .chef-vic div i,
@@ -470,183 +466,29 @@ h1{
     }
 }
 
-/*
-
-.DDD{
-    background-color: #333333;
+.img-cliente{
+    width: 30px;
 }
 
-.scene, .scene div, .scene div::before, .scene div::after{
-    position: absolute;
-    content: '';
-    transform-style: preserve-3d;
+.text-cliente{
+    margin: 2px 0 0 2px;
 }
 
-.scene{
-    top: 50%;
-    left: 50%;
-    transform: rotateX(65deg) rotatez(45deg);
+.na-midia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
-
-.cube{
-    top: 50%; left: 50%;
-    width: var(--x); height: var(--y);
-    background-color: color-mix(in display-p3, var(--color) 50%, #333333);
-    translate: -50% -50%;
-}
-
-.cube::before{
-    width: var(--x); height: var(--z);
-    background-color: color-mix(in display-p3, var(--color) 70%,
-   #333333);
-    transform-origin: top center;
-    rotate: x 90deg;
-}
-
-.cube::after{
-    width: var(--x); height: var(--z);
-    background-color: color-mix(in display-p3, var(--color) 90%, #333333);
-    transform-origin: top center;
-    rotate: x 90deg;
-    translate: 0 var(--y);
-}
-
-.cube > div {
-    width: var(--x); height: var(--y);
-    background-color: var(--color);
-    translate: 0 0 var(--z);
-}
-
-.cube > div::before {
-    width: var(--y); height: var(--y);
-    background-color: color-mix(in display-p3, var(--color) 80%, #333333);
-    transform-origin: left center;
-    rotate: y 90deg;
-}
-
-.cube > div::after {
-    width: var(--z); height: var(--y);
-    background-color: color-mix(in display-p3, var(--color) 80%,
-    #333333);
-    transform-origin: left center;
-    rotate: y 90deg;
-    translate: var(--x);
-}
-
-.ckicken_head{
-    --x: 6em; --y: 7em; --z: 8em;
-    --color: var(--white);
-}
-
-.ckicken_beak{
-    --x: 2em; --y: 2em; --z: 2em;
-    --color: var(--orange);
-    translate: 2em 7em 6em;
-}
-
-.ckicken_wattle{
-    --x: 2em; --y: 1.5em; --z: 2em;
-    --color: var(--red);
-    translate: 2em 7em 4em;
-}
-
-.ckicken_comb{
-    --x: 2em; --y: 5em; --z: 2em;
-    --color: var(--red);
-    translate: -0.5em -2em 8em;
-}
-
-.ckicken_body{
-    --x: 6em; --y: 10em; --z: 5em;
-    --color: var(--white);
-    translate: 0em -3em -5em;
-}
-
-.ckicken_tail{
-    --x: 4em; --y: 2em; --z: 5em;
-    --color: var(--white);
-    translate: 1em -5em -5em;
-}
-
-.ckicken_wing-right{
-    --x: 2em; --y: 6em; --z: 3em;
-    --color: var(--white);
-    translate: 6em 0em -4em;
-}
-
-.ckicken_wing-left{
-    --x: 2em; --y: 6em; --z: 3em;
-    --color: var(--white);
-    translate: -2em 0em -4em;
-}
-
-.ckicken_knee-right{
-    --x: 1em; --y: 1em; --z: 3em;
-    --color: var(--orange);
-    translate: 5em 1em -8em;
-}
-
-.ckicken_knee-left{
-    --x: 1em; --y: 1em; --z: 3em;
-    --color: var(--orange);
-    translate: 0em 1em -8em;
-}
-
-.ckicken_foot-right{
-    --x: 3em; --y: 3em; --z: 1em;
-    --color: var(--orange);
-    translate: 4em 0em -9em;
-}
-
-.ckicken_foot-left{
-    --x: 3em; --y: 3em; --z: 1em;
-    --color: var(--orange);
-    translate: -1em 0em -9em;
-}
-
-
-.ckicken_finger-1{
-    --x: 1em; --y: 2em; --z: 1em;
-    --color: var(--orange);
-    translate: -1em 3em -9em;
-}
-
-.ckicken_finger-2{
-    --x: 1em; --y: 2em; --z: 1em;
-    --color: var(--orange);
-    translate: 1em 0em -9em;
-}
-
-
-.ckicken_finger-3{
-    --x: 1em; --y: 2em; --z: 1em;
-    --color: var(--orange);
-    translate: 4em 0em -9em;
-}
-
-.ckicken_finger-4{
-    --x: 1em; --y: 2em; --z: 1em;
-    --color: var(--orange);
-    translate: 6em 3em -9em;
-}
-
-*/
 
 .midias{
     display: flex;
-    justify-content: space-between;
-    align-items:center;
+    margin-top: 10px;
     text-align: center;
-    flex: 0.5;
-    flex-direction: column;
-    margin-bottom: 5px;
 }
 
-.midias h2{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
 
 .footer img{
     width: 20%;
@@ -738,7 +580,7 @@ h1{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-/* animacao botao wpp
+ animacao botao wpp
 #whatsapp .wtsapp:focus{
     border: none;
     outline: none;
@@ -749,7 +591,7 @@ h1{
     0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
     100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 1;}
 }
-*/
+
 
 .loader {
     position: absolute;
@@ -801,4 +643,60 @@ h1{
 
 .circle:nth-child(n + var(--count)) {
     display: none;
+}
+
+#transicao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-transicao{
+    color: #e9a209;
+    font-size: 1.5rem;
+}
+
+#cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.bfp-pote{
+    width: 50%;
+}
+
+.racao-pote{
+    width: 50%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 20%;
+    padding: 20px;
+    background-color: #fdf2e1;
+    box-shadow: 0 0 12px 4px rgba(0,0,0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-heart{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.563rem;
+    width: 70px;
+    height: 70px;
+    background-color: #e9a209;
+    right: -10px;
+    top: -10px;
+    border-radius: 0 37.5px 0 42px;
 }

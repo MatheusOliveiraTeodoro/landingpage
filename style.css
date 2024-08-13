@@ -252,12 +252,9 @@ h1{
 }
 
 .beneficios-slide{
-    display: grid;
-    grid-column: 1rf 1rf;
     background: #fdf2e1;
     margin: 80px 0;
     font-size: 2.5rem;
-    align-items: center;
 }
 
 .beneficios-titulo{
@@ -270,12 +267,21 @@ h1{
 
 .beneficios-slide
 
+.beneficios-imagem-animacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.beneficios-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bnf-img {
     width: 50vw;
-    padding-left: 2.5rem;
     flex: 1;
     max-width: 500px;
-    margin-left: 20px;
 }
 
 .fale-conosco{
@@ -542,7 +548,7 @@ h1{
 
 #whatsapp .wtsapp{
     position: fixed;
-    transform: all 0.5s ease;
+    transition: all 0.5s ease;
     background-color: #25d366;
     display: block;
     text-align: center;
@@ -581,7 +587,6 @@ h1{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
- animacao botao wpp
 #whatsapp .wtsapp:focus{
     border: none;
     outline: none;
@@ -589,14 +594,15 @@ h1{
 
 @keyframes pulse-border {
 
-    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity: 1;}
-    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity: 1;}
+    0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1); opacity:50%;}
+    100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5); opacity:50%;}
 }
 
 
 .loader {
-    position: absolute;
-    top: 50%; left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     --from: 80px;
     --to: 200px;

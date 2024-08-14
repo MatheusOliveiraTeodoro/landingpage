@@ -257,7 +257,7 @@ h1{
     font-size: 2.5rem;
 }
 
-.beneficios-titulo{
+#beneficios-titulo{
     color: #882b2e;
     font-size: 55px;
     margin-bottom: 15px;
@@ -584,7 +584,7 @@ h1{
     border-radius: 50%;
     -webkit-animation:pulse-border 1500ms ease-out infinite;
     animation:pulse-border 1500ms ease-out infinite;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
 
 #whatsapp .wtsapp:focus{
@@ -606,7 +606,7 @@ h1{
 
     --from: 80px;
     --to: 200px;
-    --size: 32px;
+    --size: 42px;
     --time: 7s;
     --count: 51;
     --turns: 6;
@@ -745,7 +745,7 @@ h1{
     height: auto;
 }
 
-#testimonials .section-title{
+#testimonials #section-title{
     font-size: 3rem;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -753,6 +753,7 @@ h1{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 
 #testimonials .section-subtitle {
     font-size: 2rem;

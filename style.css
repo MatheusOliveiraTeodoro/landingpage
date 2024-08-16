@@ -912,6 +912,14 @@ span:nth-of-type(2){
     width: 100px;
 }
 
+.beagle{
+    width: 100px;
+}
+
+.rot{
+    width: 100px;
+}
+
 .titulo-tabela{
    text-align: left;
 }
@@ -932,11 +940,12 @@ span:nth-of-type(2){
     background-color: #FFF6DE;
 }
 
-table, th, th{
+table, td, th{
     border: 2px solid white;
     border-collapse: collapse;
     padding: 5px 2px;
     width: 30%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .porte-pequeno th{

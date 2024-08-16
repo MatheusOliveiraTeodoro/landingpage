@@ -26,7 +26,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 40px;
+    padding: 0px 110px;
     box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
     background: var(--white);
@@ -253,27 +253,31 @@ h1{
 }
 
 .beneficios-slide{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     background: #fdf2e1;
     width: 100%;
+    margin: 80px 0;
+    padding: 20px
+}
+
+.grid-imagem-lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
 }
 
 #beneficios-titulo{
     color: #882b2e;
     font-size: 2.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     margin-right: 20px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 10px;
 }
 
 .beneficios-imagem {
     display: flex;
-    justify-content: end;
-    margin-right: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .bnf-img {
@@ -283,7 +287,9 @@ h1{
 }
 
 .list-bn{
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fale-conosco{
@@ -305,16 +311,21 @@ h1{
 }
 
 .main-slide2{
-    margin: 80px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
+}
+
+.grid-fooding-question {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .foodimg{
-    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .foodimg img{
@@ -323,11 +334,9 @@ h1{
 }
 
 .question{
-    flex: 0.5;
-    flex-direction: column;
-    margin-left: 40px;
-    margin-bottom: 150px;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .question h2{
@@ -487,11 +496,13 @@ h1{
 
 .na-midia{
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
-    margin-top: 20px;
+    margin-top: 60px;
+    gap: 20px;
 }
 
 .midias{
@@ -517,6 +528,7 @@ h1{
     border-top: 1px solid rgb(252, 184, 107);
     background-color: rgb(252, 222, 195);
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -661,9 +673,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    margin-top: -200px;
-    margin-bottom: -50px;
+    min-height: 60vh;
 }
 
 .text-transicao{
@@ -854,8 +864,7 @@ h1{
 }
 
 #logo-header{
-    width: 20%;
-    height: 20%;
+    height: 100px;
     display: flex;
 }
 

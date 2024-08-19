@@ -14,224 +14,146 @@
     <title>ComidaSaudavelPets</title>
 </head>
 
+
 <body>
     <header>
-        <nav class="navigation">
+
+        <!--botao fixado do wpp-->
+        <div id="whatsapp">
+            <a href="https://wa.me/message/O7OXIRLLBCPLM1" target="_blank" id="toggle1" class="wtsapp">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABAdJREFUWEftl3moVVUUxn/PAS2nUDSHVNLCf9KcxVQiUaFUcIIycQKHJGdQVLSEcAgKEge0KFNQqHDIUHHMnEgUcigVcRZn0RxyttrfY53Lvtdz7jnnCfL+eAse755z1tr722v41toFFDMpKGZ4KAEUF5Fn8ZBsmwINgZeBl4DrwCXgGPBX3OZh34sCSCBGAd2AGnk2PQusAL4ALiQFlwZQXeBzoG/SxU3vATDP/Z4O3ImzTQqoFbAWqO4teAD4AdgCnAeuALWAV5yu9DsAvSBTOH8C7wHn8oFKAuhdYBVQzhbaDkwD9D9OWgDfA2+YonKsI6DDhEocoCbA7y5ULwB3XdKOBr6NQ5HzvQzwmbOfCJQCLroDvglcTZvUFYAjDoBy5x/gLReCgynB+OpdgV8shHstpMqvLMnnoU8tEWWg2K9/BjCB6XjgS3uYDMxOCkicokR9EVgO9PMM37eqUSiUwPJeGtkNtLWQ1Qfu+cZRHhoJzAX+BV4DTplRTftd3p4HW9KmAaTQ7zIDHe7HJIC2AW8DK4HensEYx8hfec9KeJ02rRyyylvqDjgwDlBF4KZVxAfGNYHNVKsYf40qwK2UiGYCyiG1l4ASCpcIC1kj4KhtoD510tush3FS8EptYUJKMFIXYaqtiEpUzRkJA9QO2GkaSm55K5CywGmgtr14HTheBEAKs5JbIva/FqwRBqiz45yNplAZuJ2zYX9AsZeonajJphWFSXkkyYpCGKA2xs5SVmcPo/mFjnGH24Ji4U9SIvIPLWrJlH4YILlQjVLS04FaHbKZWoAaax/7Nt8ltkjvoT0vdmHvZBWpqnySs8ZQF/avLR2UFhmJ4qEzQD037yxwBPZxxOnV3351DC6PSpT8Gk9eBSZ5NiqQD4E/vHc/2WE2uVzqkgTQIjdUDbMTaKTIYlNvAU0AmnWGxIRMfWyd6chGSSx6+ciNLNor1kPvAFtNS8QVJHHUvgqPvKmqy5UTQHOPq4J+psaq1pOpMBnma677bUzQ/2YxHtDn0m46UCtQ31MYVEX6GwvcMHvli2iiGjDHvmUtnQ+QurJO8xSbJgAXpqJq2mytRt5RjgbFExsyKSgJVfaqknFFBBGYVbJZSP1REpkGUR7StUbXGYmfkEXB1cCF/GevZ2kGUh8LlShAA1z5LgEeuepobZ5qb+7+D5gBqHQf50EoBlb5DwI0O0lmOa6aku9UUYCWGXfks9Vs/J0NcpqP/wbqABq6ugMtPeP7wIgks1MYIL1TKVbNQXPYqKCxzUpJwieG/sYp6k52OYlBGCCdbI9rmvus6/8G7PBKV+tqihRx6u6lVqMyVuLKU9pYl4M1LsQb7HqdBEuhTlQv05ysWeW5S9y9rARQsfPQ/xxutiXOFPxkAAAAAElFTkSuQmCC" />
+            </a>
+        </div>
+        <!-- secao navbar, elementos de navegacao entre e intra sites-->
+        <section id="navigation">
             <a href="#"><img src="./imagens/Logo_BFP.png" id="logo-header"></a>
-            <ul class="nav-menu">
-                <i class="facebook"><a href="https://www.facebook.com/share/1gh83cNnqjXtToYa/?mibextid=LQQJ4d"
+                <!--objetos de navegacao de redes sociais-->
+                <ul class="nav-menu">
+                    <i class="facebook"><a href="https://www.facebook.com/share/1gh83cNnqjXtToYa/?mibextid=LQQJ4d"
                         target="_blank" class="facebook-icon"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAtUlEQVRIS2NkoDFgpLH5DIPOAgWgj/uB2ACIQWwQ2AjEAbhCghQfCAANuQ/EIBoZHARyHKhhwQKgIfFYDKKaBQeAhtsjBUsCkP2BUCIhJYj+IxnWCGQ3EDIcJD/gFoCCQR7qUmQXg4ILhEEAFAcwNoanCPkAOdxxhQje4KKGBY6U+GACUDMoU4EALAWB2A+B+AFUvABIX8DlPUI+QNY3NFPRqA8GPicPrzjAlZfwipOS0QanBQCzsykZDgZW9QAAAABJRU5ErkJggg==" /></a></i>
-                <i class="instagram"><a href="https://www.instagram.com/bestforpetoficial?igsh=MXd2andhYjU2YzJ0eQ=="
+                    <i class="instagram"><a href="https://www.instagram.com/bestforpetoficial?igsh=MXd2andhYjU2YzJ0eQ=="
                         target="_blank"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABhklEQVRIS82VgVHDMAxF2w1ggoYJChMQJoANmk4AnQA6ATABYQLYgHaClgnICDBB+Y+TOWGSODkuV3T3TxDL+l+yrY5HA9t44PyjvRHkqmwmHBvaCt1qETwKqziwroJCQQ8WuJZ/twR1JAg4EE5tcS5f+sCYAOUvAokhqjqeUaa4Z2EqnPlKYgLYLwQ2oDxlqKfaV1P+Jk+rEPdlMQG9JHFek5lNE/teWSJatBGomD0rizlqIthp4V64cgQkQSXeG2LoOQYhwiDgPL6FxxVAsBRuXCYSZfattO+F/K3A2omL7U1AItQvhDsvX39TJST+5vQmoJJr4dBa4DmoikP1Ff8/grYWher+1CJawkFyPUnIHccu7X/uv79dnVpUd01LJeKVeiM5FSIgWJIg9dAyy1TJQxobBMSEuF8vmU3nAi+xy6jwBCRNjopcQQw7lHB4KO1iJH8SOI/WYUeyQgjjGqK2cY0gLPjkuA5q2QARPgy4pko+tIAQXjr+h+3tJ7NJbe/vg1fwCW3KaRm/9ADsAAAAAElFTkSuQmCC" /></a></i>
-                <i class="wpp"><a href="https://wa.me/message/O7OXIRLLBCPLM1" target="_blank"><img
+                    <i class="wpp"><a href="https://wa.me/message/O7OXIRLLBCPLM1" target="_blank"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABsUlEQVRIS9WV/TEEQRDF7yJABFYEZGBlQARWBIjAiQARIAKXgREBIrAZIALe76pna2t2eoY/roquejU10x+vP2Z257M1y3zN8Wd/gqBVlcfCnoGiXwz3WkOpC6UKGjneChAgT6NgkHG+YWfnRjjh8ggI8CigvxYWTpad6b+0HuWqyRFsyvBN+BQOvcxGhNgHYVs4SO1zBEsrnxbQawKA3qmC46h/NpLBNCWgNRhdWlsa239o3SkQoOoEZkYVVLSSlIB+nwpbAkHPhCuzPdF6VyHBhw5AliWIzK3pxwQMEeeSkMC+MFSbVtBLSd8ZLtIIDJzMqKomCxlcCEPcGgEBYxVkR5tKUiUI5t0mUQjOa2blUVEZA6VlN1YhLuy5KOhX4g2ZHvYJSbwAtAvEIPHGYV4dMk70fOw05mm1gWjXDnmMnDG3TqheU/yCOePoCYkAAsdqeD+vRjj45V4y3xX6ynB/IvSczGlrrMYl4Ho+CAzy3Rx6IyTTVEgiXstJcIy9IecyDzqEDCKyJiDCZ7wz3cQvJaCnBCEYYN8IZEpQwD+AoOi4lti54v0PSj6/0v1/gm83AGYZTzKU/QAAAABJRU5ErkJggg==" /></a></i>
-                <li class="nav-item"><a href="#beneficios-titulo">Beneficios</a></li>
-                <li class="nav-item"><a href="https://www.bestforpet.com.br/loja" target="_blank">Cardápio</a></li>
-                <li class="nav-item"><a href="#section-title">Depoimento</a></li>
-                <li class="nav-item"><a href="#title-midia" id="scroll-midia">Mídia</a></li>
-                </li>
-            </ul>
-            <div class="menu">
-                <span class="bar"> </span>
-                <span class="bar"> </span>
-                <span class="bar"> </span>
-            </div>
-        </nav>
+                    <!--objetos de navegacao entre o site e transporte para o cardapio do site principal-->
+                    <li class="nav-item"><a href="#beneficios-slide">Beneficios</a></li>
+                    <li class="nav-item"><a href="https://www.bestforpet.com.br/loja" target="_blank">Cardápio</a></li>
+                    <li class="nav-item"><a href="#section-title">Depoimento</a></li>
+                    <li class="nav-item"><a href="#na-midia" id="scroll-midia">Mídia</a></li>
+                </ul>
 
+                <div class="menu">
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                </div>
+        </section>
     </header>
+    <!--pag principal-->
     <main>
-
         <section id="home">
             <div class="home-text">
-                <h4 class="text-h4">Bem vindo a Best for Pet!</h4>
-                <h1 class="text-h1">Comida de verdade! Petiscos e dietas personalizadas para cães e gatos.</h1>
-                <a href="https://wa.me/message/O7OXIRLLBCPLM1" class="home-btn">Faça já seu pedido</a>
+                <h4 id="text-h4">Bem vindo a Best for Pet!</h4>
+                <h1 id="text-h1">Comida de verdade! Petiscos e dietas personalizadas para cães e gatos.</h1>
+                <!--botao de pedido-->
+                <a href="https://wa.me/message/O7OXIRLLBCPLM1" id="home-btn">Faça já seu pedido</a>
             </div>
             <div class="home-img">
                 <img src="./imagens/cachorro-gato2.png" class="cachorro-gato" alt="catdog">
-                <div class="heart"></div>
+                <!--<div id="heart"></div>-->
             </div>
         </section>
-    </main>
 
-    <section class="beneficios-slide">
-        <h2 id="beneficios-titulo">Benefícios da alimentação natural</h2>
+    <section id="beneficios-slide">
+        <h2 class="section-title">Benefícios da alimentação natural</h2>
+            <div class="grid-imagem-lista">
+                <div id="list-bn">
 
-        <div class="grid-imagem-lista">
+                    <li id="lista-elementos-rosa">
+                        <ul>Balanceada e suplementada com vitaminas e minerais</ul>
+                        <ul>Auxilia na prevencao de doencas</ul>
+                        <ul>Maior hidratacao do organismo</ul>
+                        <ul>Reducao das feses e do odor</ul>
+                    </li>
 
-            <div class="list-bn">
-                <li class="lista-beneficios">
-                    <ul class="lista">• 100% natural</ul>
-                    <ul class="lista">• Saudável</ul>
-                    <ul class="lista">• Balanceada e suplementada com vitaminas e minerais</ul>
-                    <ul class="lista">• Auxilia na prevencao de doencas</ul>
-                    <ul class="lista">• Sem conservantes</ul>
-                    <ul class="lista">• Sem corantes</ul>
-                    <ul class="lista">• Maior hidratacao do organismo</ul>
-                    <ul class="lista">• Aumenta a longevidade</ul>
-                    <ul class="lista">• Pelos mais brilhantes</ul>
-                    <ul class="lista">• Recucao das fezes e do odor</ul>
-                    <ul class="lista">• Ajuda no controle do peso</ul>
-                </li>
+                    <li id="lista-elementos-azul">
+                        <ul>Ajuda no controle de peso</ul>
+                        <ul>Aumenta a logevidade</ul>
+                        <ul>Pelos mais brilhantes</ul>
+                        <ul>Sem conservantes</ul>
+                    </li>
+
+                    <li id="lista-elementos-amarelo">
+                        <ul>100% nautral</ul>
+                        <ul>Sem corantes</ul>
+                        <ul>Saudavel</ul>
+                    </li>
+                </div>
+
+                <button id="btn-fale-conosco">
+                    <a href="https://wa.me/message/O7OXIRLLBCPLM1" target="_blank">Fale conosco</a>
+                </button>
+
             </div>
-
-            <div class="beneficios-imagem">
-                <img src="./imagens/cachorro-coracao.png">
-            </div>
-        </div>
     </section>
 
-    <!-- animacao baloes
-            <div class="loader">
-                <div class="circle" style="--i: 1"></div>
-                <div class="circle" style="--i: 2"></div>
-                <div class="circle" style="--i: 3"></div>
-                <div class="circle" style="--i: 4"></div>
-                <div class="circle" style="--i: 5"></div>
-                <div class="circle" style="--i: 6"></div>
-                <div class="circle" style="--i: 7"></div>
-                <div class="circle" style="--i: 8"></div>
-                <div class="circle" style="--i: 9"></div>
-                <div class="circle" style="--i: 10"></div>
-                <div class="circle" style="--i: 11"></div>
-                <div class="circle" style="--i: 12"></div>
-                <div class="circle" style="--i: 13"></div>
-                <div class="circle" style="--i: 14"></div>
-                <div class="circle" style="--i: 15"></div>
-                <div class="circle" style="--i: 16"></div>
-                <div class="circle" style="--i: 17"></div>
-                <div class="circle" style="--i: 18"></div>
-                <div class="circle" style="--i: 19"></div>
-                <div class="circle" style="--i: 20"></div>
-                <div class="circle" style="--i: 21"></div>
-                <div class="circle" style="--i: 22"></div>
-                <div class="circle" style="--i: 23"></div>
-                <div class="circle" style="--i: 24"></div>
-                <div class="circle" style="--i: 25"></div>
-                <div class="circle" style="--i: 26"></div>
-                <div class="circle" style="--i: 27"></div>
-                <div class="circle" style="--i: 28"></div>
-                <div class="circle" style="--i: 29"></div>
-                <div class="circle" style="--i: 30"></div>
-                <div class="circle" style="--i: 31"></div>
-                <div class="circle" style="--i: 32"></div>
-                <div class="circle" style="--i: 33"></div>
-                <div class="circle" style="--i: 34"></div>
-                <div class="circle" style="--i: 35"></div>
-                <div class="circle" style="--i: 36"></div>
-                <div class="circle" style="--i: 37"></div>
-                <div class="circle" style="--i: 38"></div>
-                <div class="circle" style="--i: 39"></div>
-                <div class="circle" style="--i: 40"></div>
-                <div class="circle" style="--i: 41"></div>
-                <div class="circle" style="--i: 42"></div>
-                <div class="circle" style="--i: 43"></div>
-                <div class="circle" style="--i: 44"></div>
-                <div class="circle" style="--i: 45"></div>
-                <div class="circle" style="--i: 46"></div>
-                <div class="circle" style="--i: 47"></div>
-                <div class="circle" style="--i: 48"></div>
-                <div class="circle" style="--i: 49"></div>
-                <div class="circle" style="--i: 50"></div>
-                <div class="circle" style="--i: 51"></div>
-                <div class="circle" style="--i: 52"></div>
-                <div class="circle" style="--i: 53"></div>
-                <div class="circle" style="--i: 54"></div>
-                <div class="circle" style="--i: 55"></div>
-                <div class="circle" style="--i: 56"></div>
-                <div class="circle" style="--i: 57"></div>
-                <div class="circle" style="--i: 58"></div>
-                <div class="circle" style="--i: 59"></div>
-                <div class="circle" style="--i: 60"></div>
-                <div class="circle" style="--i: 61"></div>
-                <div class="circle" style="--i: 62"></div>
-                <div class="circle" style="--i: 63"></div>
-                <div class="circle" style="--i: 64"></div>
-                <div class="circle" style="--i: 65"></div>
-                <div class="circle" style="--i: 66"></div>
-                <div class="circle" style="--i: 67"></div>
-                <div class="circle" style="--i: 68"></div>
-                <div class="circle" style="--i: 69"></div>
-                <div class="circle" style="--i: 70"></div>
-                <div class="circle" style="--i: 71"></div>
-                <div class="circle" style="--i: 72"></div>
-                <div class="circle" style="--i: 73"></div>
-                <div class="circle" style="--i: 74"></div>
-                <div class="circle" style="--i: 75"></div>
-                <div class="circle" style="--i: 76"></div>
-                <div class="circle" style="--i: 77"></div>
-                <div class="circle" style="--i: 78"></div>
-                <div class="circle" style="--i: 79"></div>
-                <div class="circle" style="--i: 80"></div>
-                <div class="circle" style="--i: 81"></div>
-                <div class="circle" style="--i: 82"></div>
-                <div class="circle" style="--i: 83"></div>
-                <div class="circle" style="--i: 84"></div>
-                <div class="circle" style="--i: 85"></div>
-                <div class="circle" style="--i: 86"></div>
-                <div class="circle" style="--i: 87"></div>
-                <div class="circle" style="--i: 88"></div>
-                <div class="circle" style="--i: 89"></div>
-                <div class="circle" style="--i: 90"></div>
-                <div class="circle" style="--i: 91"></div>
-                <div class="circle" style="--i: 92"></div>
-                <div class="circle" style="--i: 93"></div>
-                <div class="circle" style="--i: 94"></div>
-                <div class="circle" style="--i: 95"></div>
-                <div class="circle" style="--i: 96"></div>
-                <div class="circle" style="--i: 97"></div>
-                <div class="circle" style="--i: 98"></div>
-                <div class="circle" style="--i: 99"></div>
-                <div class="circle" style="--i: 100"></div>
-            </div> -->
-
-    <div class="main-slide2">
-
-        <div class="grid-fooding-question">
+    <div>
+        <div id="grid-fooding-question">
+            
             <div class="foodimg">
-                <img src="./imagens/ingredientes.png" class="ingredientes">
+                <img src="./imagens/ingredientes.png" id="ingredientes">
             </div>
+
             <div class="question">
                 <div>
                     <h2>
                         Por que as pessoas escolhem nossos produtos ?
                     </h2>
-                    <div>
-                        <div class="q-ans">
-                            <div>
-                                <img src="./imagens/suino-removebg-preview (1).png" class="bovino-img">
-                            </div>
+                <div>
+                    <div class="q-ans">
+                        <div>
+                            <img src="./imagens/suino-removebg-preview (1).png">
+                        </div>
+
                             <div>
                                 <h4>Preparo feito com cuidado e carinho</h4>
-                                <p>Para o preparo das dietas, cozinhamos os ingredientes
+                                <p>
+                                    Para o preparo das dietas, cozinhamos os ingredientes
                                     no vapor através do uso de forno combinado, que regula
                                     os parâmetros de temperatura e umidade ideais, mantendo
                                     o valor nutricional dos alimentos e realcando o sabor.
                                 </p>
                             </div>
                         </div>
-                        <div class="q-ans">
-                            <div>
-                                <img src="./imagens/suino-removebg-preview (1).png" class="frango-img">
-                            </div>
+
+                    <div class="q-ans">
+                        <div>
+                            <img src="./imagens/suino-removebg-preview (1).png">
+                        </div>
+
                             <div>
                                 <h4>Equipamentos de ponta</h4>
-                                <p>Após a pesagem dos ingredientes e preparo da dietas,
+                                <p>
+                                    Após a pesagem dos ingredientes e preparo da dietas,
                                     as embalagens são seladas a vácuo e colocadas no Ultracongelador
                                     para serem congeladas de forma rápida a fim de manter
                                     a integridade dos ingredientes.
                                 </p>
                             </div>
                         </div>
-                        <div class="q-ans">
-                            <div>
-                                <img src="./imagens/suino-removebg-preview (1).png" class="suino-img">
-                            </div>
+                        
+                    <div class="q-ans">
+                        <div>
+                            <img src="./imagens/suino-removebg-preview (1).png">
+                        </div>
+
                             <div>
                                 <h4>Dietas desenvolvidas por especialistas</h4>
-                                <p>Nossas dietas foram desenvolvidas por um veterinário
+                                <p>
+                                    Nossas dietas foram desenvolvidas por um veterinário
                                     especializado em Nutrologia Animal. São balanceadas
                                     e suplementadas, o que garante a ingestao diária
                                     necessária de vitaminas e minerais pelo seu patudo.
@@ -244,72 +166,76 @@
         </div>
 
         <section id="transicao">
-            <h2 class="text-transicao">Transição para alimentação natural Best for Pet</h2>
+            <h2 class="section-title">Transição para alimentação natural Best for Pet</h2>
 
             <div id="cards">
                 <div class="card">
                     <div class="card-heart">
-                        <i><img
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" /></i>
+                        <i>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" />
+                        </i>
                     </div>
-                    <img src="./imagens/racao.png" class="racao-pote">
-                    <img src="./imagens/Bovino_Essencial_Opcao1-removebg-preview.png" class="bfp-pote">
+                    <img src="./imagens/racao-peletizada-2.jpg.webp" class="img-card-racao">
+                    <img src="./imagens/IMG_4379.JPG" class="img-card">
                     <h3 class="transicao-title">Dias 1 e 2</h3>
-                    <span class="transicao-description-racao">75% Dieta antiga</span>
-                    <span class="transicao-description-bfp">25% BEST FOR PET</span>
+                    <span class="transicao-description">75% Dieta antiga</span>
+                    <span class="transicao-description">25% BEST FOR PET</span>
                 </div>
 
                 <div class="card">
                     <div class="card-heart">
-                        <i><img
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" /></i>
+                        <i>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" />
+                        </i>
                     </div>
-                    <img src="./imagens/racao.png" class="racao-pote">
-                    <img src="./imagens/Bovino_Essencial_Opcao1-removebg-preview.png" class="bfp-pote">
+                    <img src="./imagens/racao-peletizada-2.jpg.webp" class="img-card-racao">
+                    <img src="./imagens/IMG_4379.JPG" class="img-card">
                     <h3 class="transicao-title">Dias 3 e 4</h3>
-                    <span class="transicao-description-racao">50% Dieta antiga</span>
-                    <span class="transicao-description-bfp">50% BEST FOR PET</span>
+                    <span class="transicao-description">50% Dieta antiga</span>
+                    <span class="transicao-description">50% BEST FOR PET</span>
                 </div>
 
                 <div class="card">
                     <div class="card-heart">
-                        <i><img
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" /></i>
+                        <i>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" />
+                        </i>
                     </div>
-                    <img src="./imagens/racao.png" class="racao-pote">
-                    <img src="./imagens/Bovino_Essencial_Opcao1-removebg-preview.png" class="bfp-pote">
+                    <img src="./imagens/racao-peletizada-2.jpg.webp" class="img-card-racao">
+                    <img src="./imagens/IMG_4379.JPG" class="img-card">
                     <h3 class="transicao-title">Dias 5 e 6</h3>
-                    <span class="transicao-description-racao">25% Dieta antiga</span>
-                    <span class="transicao-description-bfp">75% BEST FOR PET</span>
+                    <span class="transicao-description">25% Dieta antiga</span>
+                    <span class="transicao-description">75% BEST FOR PET</span>
                 </div>
 
                 <div class="card">
                     <div class="card-heart">
-                        <i><img
-                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" /></i>
+                        <i>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAhFJREFUWEft2MurTXEUwPHP9YjySDIQyuMPMJIJmYiJkpkykCSPARlhYiITyUCEG1IMSMmzjAxMTJRSEiOPogxQysxrL+1z2x377r1/29l1bt3f5NTea/3W96z1W2v91h4xZGtkyHhMaKBNeJB79AnW1Hh3Dr4VZKbiV11EUjw0CVT05mKMYj1m1rm5xfsvuIIj+FHULwvZfDzHkhaGUlWuYXsd0GbcTd25pfxPzED8/l1lHtqDCy0NtFFbivdVQPtwrs3OLXVW4M2EAtqL8znxIxxv+c+r1O4hCmes5Xjb1EPXsa0DoK+Yl++bFLJJoLK0L2ZZlYeifqzE674mGmdiNl7g9zjhHnjIdmWH8hTm5kbP4GxW3S9hXQ7xKq/CT0ugBgq0BbdLjHzHrL7nn3Mvfux7PlCgKGLLEjLvJA51CfQBixKAIpwHugQ6imMNgaJprsazLoGm4CE2NoA6iNNdH+rYP1L+PjZUQO3PM69MZKCHumdgep5tcdfuX1UwIdsJUGw8DXfQg4pCGPepizXh7AyoB3UTUZ924GqDs9UpUNiPmWstHjeA6TRkDe3/I9a5h1LBkoB24nJuITr2rVRrDeQPF+a9mAHHel3Z9WNVljVlHbqBnWSRT9mEs7CoNd5sfwNbk7dPU4iJNYbEuHONraqPDdEadmfVdkGanUbSL3EC7/qlU75+NLL0v0JDB/QHYluQJW8X7ngAAAAASUVORK5CYII=" />
+                        </i>
                     </div>
-                    <img src="./imagens/Bovino_Essencial_Opcao1-removebg-preview.png" class="bfp-pote">
+                    <img src="./imagens/IMG_4379.JPG" id="img-card">
                     <h3 class="transicao-title">Dia 7</h3>
-                    <span class="transicao-description-racao">100% BEST FOR PET</span>
+                    <span class="transicao-description">100% BEST FOR PET</span>
                 </div>
             </div>
         </section>
 
-        <section id="tabela-pes/comida">
-            <h2 class="tabela-title">Qual a quantidade média de comida para seu patudo ?</h2>
+        <section id="section-tabelas">
+            <h2 class="section-title">Qual a quantidade média de comida para seu patudo ?</h2>
             
             <div id="tabela">
-                <table class="porte-pequeno">
+                <table id="porte-pequeno">
                     <thead>
                         <tr>
-                            <th class="acoes-pequeno">Cachorro porte pequeno</th>
-                            <th class="acoes-pequeno">Peso do animal em Kg</th>
-                            <th class="acoes-pequeno">Qtde de comida em grama</th>
+                            <th class="acoes">Cachorro porte pequeno</th>
+                            <th class="acoes">Peso do animal (Kg)</th>
+                            <th class="acoes">Qtde de comida (g)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="titulo-tabela"><img src="/imagens/shihtzu.png" class="shit"></td>
+                            <td class="titulo-tabela"><img src="/imagens/shihtzu.png" class="img-tabela"></td>
                             <td class="titulo-tabela">1 a 3</td>
                             <td class="titulo-tabela">69 - 150 g</td>
                         </tr>
@@ -326,17 +252,17 @@
                     </tbody>
                 </table>
     
-                <table class="porte-medio">
+                <table id="porte-medio">
                     <thead>
                         <tr>
                             <th class="acoes">Cachorro porte medio</th>
-                            <th class="acoes">Peso do animal em Kg</th>
-                            <th class="acoes">Qtde de comida em grama</th>
+                            <th class="acoes">Peso do animal (Kg)</th>
+                            <th class="acoes">Qtde de comida (g)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="titulo-tabela"><img src="./imagens/beagle.png" class="beagle"></td>
+                            <td class="titulo-tabela"><img src="./imagens/beagle.png" class="img-tabela"></td>
                             <td class="titulo-tabela">11 a 13</td>
                             <td class="titulo-tabela">415 - 470 g</td>
                         </tr>
@@ -353,17 +279,17 @@
                     </tbody>
                 </table>
     
-                <table class="porte-grande">
+                <table id="porte-grande">
                     <thead>
                         <tr>
                             <th class="acoes">Cachorro porte grande</th>
-                            <th class="acoes">Peso do animal em Kg</th>
-                            <th class="acoes">Qtde de comida em grama</th>
+                            <th class="acoes">Peso do animal (Kg)</th>
+                            <th class="acoes">Qtde de comida (g)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="titulo-tabela"><img src="./imagens/rottweiler.png" class="rot"></td>
+                            <td class="titulo-img-tabela"><img src="./imagens/rottweiler.png" class="img-tabela"></td>
                             <td class="titulo-tabela">22 a 25</td>
                             <td class="titulo-tabela">700 - 770 g</td>
                         </tr>
@@ -387,8 +313,8 @@
             </div>
     </section>
 
-        <div class="na-midia">
-            <h2 id="title-midia">Na midia</h2>
+        <div id="na-midia">
+            <h2 class="section-title">Na midia</h2>
             <div class="midias">
 
                 <div class="vid-1">
@@ -483,25 +409,25 @@
                         </div>
                     </div>
 
-                    <button class="btn-default">
-                        <a class="title_button"
-                            href="https://www.google.com/search?q=best+for+pets&sca_esv=4f9a9e2d02a8a323&rlz=1C1GCEJ_enBR1028BR1048&ei=bjG7ZrDhGre81sQPm-jUMA&oq=best+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWJlc3QgKgIIADIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyERAuGIAEGLEDGNEDGIMBGMcBMggQLhiABBixAzIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBSP0UUABY-hBwAngBkAEAmAGTAaABuweqAQMwLje4AQPIAQD4AQGYAgmgAoMIwgILEC4YgAQYsQMYgwHCAiAQLhiABBixAxjRAxiDARjHARiXBRjcBBjeBBjgBNgBAcICChAuGIAEGEMYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIFEC4YgATCAgsQLhiABBixAxjUAsICDRAAGIAEGLEDGEYY_wHCAgsQLhiABBjHARivAcICBRAAGIAEwgIZEAAYgAQYsQMYRhj_ARiXBRiMBRjdBNgBAsICDhAuGIAEGMcBGI4FGK8BwgIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQGYAwC6BgYIARABGBS6BgYIAhABGBOSBwMyLjegB8pu&sclient=gws-wiz-serp#lrd=0x812ae24c8d7a5afd:0x4febf3bc72138983,1,,,,"
-                            target="_blank">Ver mais avaliações</a>
+                    <button class="btn-ver-mais">
+                        <a class="title_button" 
+                        href="https://www.google.com/search?q=best+for+pets&sca_esv=4f9a9e2d02a8a323&rlz=1C1GCEJ_enBR1028BR1048&ei=bjG7ZrDhGre81sQPm-jUMA&oq=best+&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWJlc3QgKgIIADIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyERAuGIAEGLEDGNEDGIMBGMcBMggQLhiABBixAzIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyCxAAGIAEGLEDGIMBSP0UUABY-hBwAngBkAEAmAGTAaABuweqAQMwLje4AQPIAQD4AQGYAgmgAoMIwgILEC4YgAQYsQMYgwHCAiAQLhiABBixAxjRAxiDARjHARiXBRjcBBjeBBjgBNgBAcICChAuGIAEGEMYigXCAhAQLhiABBjRAxhDGMcBGIoFwgIFEC4YgATCAgsQLhiABBixAxjUAsICDRAAGIAEGLEDGEYY_wHCAgsQLhiABBjHARivAcICBRAAGIAEwgIZEAAYgAQYsQMYRhj_ARiXBRiMBRjdBNgBAsICDhAuGIAEGMcBGI4FGK8BwgIdEC4YgAQYxwEYjgUYrwEYlwUY3AQY3gQY4ATYAQGYAwC6BgYIARABGBS6BgYIAhABGBOSBwMyLjegB8pu&sclient=gws-wiz-serp#lrd=0x812ae24c8d7a5afd:0x4febf3bc72138983,1,,,,"
+                        target="_blank">Ver mais avaliações</a>
                     </button>
                 </div>
             </div>
         </section>
-
+    </main>
 
         <footer class="footer">
             <div class="footer-1">
                 <div class="logo">
-                    <img src="./imagens/Logo_BFP.png">
+                    <a href="https://www.bestforpet.com.br/" class="bfp-site"><img src="./imagens/Logo_BFP.png"><br>Visite nosso site oficial</a>   
                 </div>
                 <address>
                     <p>Email: bestforpet@yahoo.com</p>
                     <p>Rua bartolomeu bueno da silva 117<br>Taquaral</br>Campinas SP</p>
-                    <a href="https://www.bestforpet.com.br/">BFP Site oficial</a>
+                    
                 </address>
             </div>
 
@@ -511,14 +437,7 @@
                 <h1>AMOR, SAÚDE E LONGEVIDADE</h1>
             </div>
         </footer>
-
-        <div id="whatsapp">
-            <a href="https://wa.me/message/O7OXIRLLBCPLM1" target="_blank" id="toggle1" class="wtsapp">
-                <img
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABAdJREFUWEftl3moVVUUxn/PAS2nUDSHVNLCf9KcxVQiUaFUcIIycQKHJGdQVLSEcAgKEge0KFNQqHDIUHHMnEgUcigVcRZn0RxyttrfY53Lvtdz7jnnCfL+eAse755z1tr722v41toFFDMpKGZ4KAEUF5Fn8ZBsmwINgZeBl4DrwCXgGPBX3OZh34sCSCBGAd2AGnk2PQusAL4ALiQFlwZQXeBzoG/SxU3vATDP/Z4O3ImzTQqoFbAWqO4teAD4AdgCnAeuALWAV5yu9DsAvSBTOH8C7wHn8oFKAuhdYBVQzhbaDkwD9D9OWgDfA2+YonKsI6DDhEocoCbA7y5ULwB3XdKOBr6NQ5HzvQzwmbOfCJQCLroDvglcTZvUFYAjDoBy5x/gLReCgynB+OpdgV8shHstpMqvLMnnoU8tEWWg2K9/BjCB6XjgS3uYDMxOCkicokR9EVgO9PMM37eqUSiUwPJeGtkNtLWQ1Qfu+cZRHhoJzAX+BV4DTplRTftd3p4HW9KmAaTQ7zIDHe7HJIC2AW8DK4HensEYx8hfec9KeJ02rRyyylvqDjgwDlBF4KZVxAfGNYHNVKsYf40qwK2UiGYCyiG1l4ASCpcIC1kj4KhtoD510tush3FS8EptYUJKMFIXYaqtiEpUzRkJA9QO2GkaSm55K5CywGmgtr14HTheBEAKs5JbIva/FqwRBqiz45yNplAZuJ2zYX9AsZeonajJphWFSXkkyYpCGKA2xs5SVmcPo/mFjnGH24Ji4U9SIvIPLWrJlH4YILlQjVLS04FaHbKZWoAaax/7Nt8ltkjvoT0vdmHvZBWpqnySs8ZQF/avLR2UFhmJ4qEzQD037yxwBPZxxOnV3351DC6PSpT8Gk9eBSZ5NiqQD4E/vHc/2WE2uVzqkgTQIjdUDbMTaKTIYlNvAU0AmnWGxIRMfWyd6chGSSx6+ciNLNor1kPvAFtNS8QVJHHUvgqPvKmqy5UTQHOPq4J+psaq1pOpMBnma677bUzQ/2YxHtDn0m46UCtQ31MYVEX6GwvcMHvli2iiGjDHvmUtnQ+QurJO8xSbJgAXpqJq2mytRt5RjgbFExsyKSgJVfaqknFFBBGYVbJZSP1REpkGUR7StUbXGYmfkEXB1cCF/GevZ2kGUh8LlShAA1z5LgEeuepobZ5qb+7+D5gBqHQf50EoBlb5DwI0O0lmOa6aku9UUYCWGXfks9Vs/J0NcpqP/wbqABq6ugMtPeP7wIgks1MYIL1TKVbNQXPYqKCxzUpJwieG/sYp6k52OYlBGCCdbI9rmvus6/8G7PBKV+tqihRx6u6lVqMyVuLKU9pYl4M1LsQb7HqdBEuhTlQv05ysWeW5S9y9rARQsfPQ/xxutiXOFPxkAAAAAElFTkSuQmCC" />
-            </a>
-        </div>
         <script src="./script.js"></script>
-</body>
 
+</body>
 </html>
